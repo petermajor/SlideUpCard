@@ -13,6 +13,10 @@
 		61E74C2F23B2715000D6EF49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61E74C2D23B2715000D6EF49 /* Main.storyboard */; };
 		61E74C3123B2715100D6EF49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E74C3023B2715100D6EF49 /* Assets.xcassets */; };
 		61E74C3423B2715100D6EF49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61E74C3223B2715100D6EF49 /* LaunchScreen.storyboard */; };
+		61E74C3D23B271BC00D6EF49 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E74C3B23B271BC00D6EF49 /* CardViewController.swift */; };
+		61E74C3E23B271BC00D6EF49 /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61E74C3C23B271BC00D6EF49 /* CardViewController.xib */; };
+		61E74C4023B27B1500D6EF49 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E74C3F23B27B1500D6EF49 /* UIViewExtensions.swift */; };
+		61E74C4223B27CF200D6EF49 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E74C4123B27CF200D6EF49 /* UIViewControllerExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		61E74C3023B2715100D6EF49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61E74C3323B2715100D6EF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61E74C3523B2715100D6EF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61E74C3B23B271BC00D6EF49 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		61E74C3C23B271BC00D6EF49 /* CardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
+		61E74C3F23B27B1500D6EF49 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		61E74C4123B27CF200D6EF49 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				61E74C3023B2715100D6EF49 /* Assets.xcassets */,
 				61E74C3223B2715100D6EF49 /* LaunchScreen.storyboard */,
 				61E74C3523B2715100D6EF49 /* Info.plist */,
+				61E74C3B23B271BC00D6EF49 /* CardViewController.swift */,
+				61E74C3C23B271BC00D6EF49 /* CardViewController.xib */,
+				61E74C3F23B27B1500D6EF49 /* UIViewExtensions.swift */,
+				61E74C4123B27CF200D6EF49 /* UIViewControllerExtensions.swift */,
 			);
 			path = SlideUpCard;
 			sourceTree = "<group>";
@@ -125,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61E74C3E23B271BC00D6EF49 /* CardViewController.xib in Resources */,
 				61E74C3423B2715100D6EF49 /* LaunchScreen.storyboard in Resources */,
 				61E74C3123B2715100D6EF49 /* Assets.xcassets in Resources */,
 				61E74C2F23B2715000D6EF49 /* Main.storyboard in Resources */,
@@ -138,8 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61E74C3D23B271BC00D6EF49 /* CardViewController.swift in Sources */,
+				61E74C4023B27B1500D6EF49 /* UIViewExtensions.swift in Sources */,
 				61E74C2C23B2715000D6EF49 /* ViewController.swift in Sources */,
 				61E74C2823B2715000D6EF49 /* AppDelegate.swift in Sources */,
+				61E74C4223B27CF200D6EF49 /* UIViewControllerExtensions.swift in Sources */,
 				61E74C2A23B2715000D6EF49 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
